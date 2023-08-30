@@ -1,0 +1,25 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+img {
+    width: 300px;
+    border: 10px solid black;
+    border-radius: 50%;    
+}
+
+

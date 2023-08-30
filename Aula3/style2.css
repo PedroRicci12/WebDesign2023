@@ -1,0 +1,42 @@
+
+.test_boxmodel1 {
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    background-color: blueviolet;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.test_boxmodel2 {
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    background-color: chartreuse;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.test_boxmodel3 {
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    background-color: deeppink;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
