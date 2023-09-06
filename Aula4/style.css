@@ -1,0 +1,44 @@
+
+.box {
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 155px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.test_boxmodel1 {
+    background-color: rgb(233, 27, 27);
+}
+
+.test_boxmodel2 {
+    background-color: rgb(49, 242, 82);
+}
+
+.test_boxmodel3 {
+    background-color: rgb(79, 36, 235);
+}
+
+a:link, a:visited  {
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    background-color: rgb(241, 142, 142);
+}
+
+a:active {
+    background-color: rgb(15, 15, 15);
+}
