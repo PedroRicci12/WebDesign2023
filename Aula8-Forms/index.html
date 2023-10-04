@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdesign - Formulario</title>
+</head>
+<body>
+    <form method="post" action="https://www.w3schools.com/action_page.php" target="_blank">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nomeCompleto" placeholder="Escreva seu nome"><br><br>
+
+        <label >Escolhe uma Linguagem de Programacao</label><br>
+        <input type="radio" name="linguagem" id="Java" value="Java" >
+        <label for="Java">Java</label><br>
+        <input type="radio" name="linguagem" id="C#" value="C#" checked>
+        <label for="C#">C#</label><br>
+        <input type="radio" name="linguagem" id="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+        <br><br>
+
+        <label>Escolha os seus idiomas</label><br>
+        <input type="checkbox" name="idioma1" id="portugues" value="Portugues" checked>
+        <label for="portugues">Portugues</label><br>
+        <input type="checkbox" name="idioma2" id="ingles" value="Ingles">
+        <label for="ingles">Ingles</label><br>
+        <input type="checkbox" name="idioma3" id="alemao" value="Alemao">
+        <label for="alemao">Alemao</label>
+        <br><br>
+        
+        <label>Botao de Teste</label>
+        <input type="button" value="Clique me!" onclick="alert('Ok, voce realmente clicou em mim!')">
+        <br><br>
+
+        <label>Escolha a sua cidade</label>
+        <select name="cidade" id="cidade">
+            <option value="Sao Paulo">Sao Paulo</option>
+            <option value="Rio de Janeiro" selected>Rio de Janeiro</option>
+            <option value="Belo Horizonte">Belo Horizonte</option>
+            <option value="Salvador">Salvador</option>
+            <option value="Sorocaba">Sorocaba</option>
+            <option value="Piedade">Piedade</option>
+        </select>
+        <br><br>
+
+        <label>Descricao:</label><br>
+        <textarea name="descricao"cols="50" rows="10">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus at quae eos. Perferendis labore atque natus repellat incidunt consequuntur magnam molestias mollitia ducimus! Rem consectetur tempore nobis quam voluptatibus? Aspernatur.
+        </textarea>
+        <br><br>
+
+        <fieldset>
+            <legend>Campos extras</legend>
+            <label for="">Idade:</label>
+            <input type="text" name="idade" id="idade"><br>
+            <label for="endereco">Endereco:</label>
+            <input type="text" name="endereco" id="endereco"><br>
+        </fieldset>
+        <br><br>
+        
+        <label>Escolha o estado</label>
+        <input list="estado" name="estado">
+        <datalist id="estado">
+            <option value="Sao Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            <option value="Salvador">
+
+        
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
