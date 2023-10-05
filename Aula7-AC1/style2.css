@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Jockey+One&family=Jomhuria&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #E6E8D2;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__titulo {
+    display: flex;
+    justify-content: center;
+    
+
+    font-family: Jomhuria;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  34.88px;
+    margin-top: 53px;
+}
+
+.principal__centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 53px;
+    column-gap: 34px;
+}
+
+.principal__centro__direita {
+    display: flex;
+    flex-direction: column;
+    width: 331px;
+    margin-top: 45px;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 19px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 19px;
+}
+
+.principal__centro__direita__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 21px;
+    margin-top: 28px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 31px;
+    
+    border-radius: 21px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+
+    background-color: #B85043;
+    border: 2px solid #000000;
+   
+    color: white;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button2 {
+    background-color: #ADAF97;
+    color: #000000;
+}
+
+.rodape {
+    margin-top: 19px;
+}
