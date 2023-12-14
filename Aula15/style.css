@@ -1,0 +1,12 @@
+
+
+.TextBorder {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
